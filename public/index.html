@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Join | ChatApp</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="centered-form">
+<div class="centered-form__form">
+  <form id="submit-form" action = "/chat.html">
+  <div class="form-field">
+    <h3>Join a Chat</h3>
+  </div>
+  <div class="form-field">
+    <label>Display name</label>
+    <input type="text" name="name" autofocus required autocomplete="off"/>
+  </div>
+<hr>
+  <div class="form-field">
+    <label>Room name</label>
+    <input type="text" list="myroom" name="room" id="room" required autocomplete="off"/><!--jquery works with id only-->
+<datalist id="myroom">
+</datalist>
+  </div>
+  <h4 id="head-field">OR</h4>
+  <div class="form-field">
+    <label>Select Room</label>
+    <select name="room" id="selectroom" required>
+      <!-- <option value='pick'>pick a room</option> -->
+</select>
+    <!-- <input type="text" name="room" id="selectroom" autocomplete="off"/><!--jquery works with id only-->
+  </div>
+  <div class="form-field">
+    <button>Join</button>
+  </div>
+</form>
+</div>
+<script src="/js/libs/jquery-3.3.1.min.js"></script>
+<script src="/js/index.js"></script>
+</body>
+</html>
