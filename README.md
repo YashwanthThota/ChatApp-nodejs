@@ -20,7 +20,7 @@
  
 **LIBRARIES AND PACKAGES:**
  - **Express:** it is a web application framework that provides you with a simple API to build websites, web apps and back ends
- - **Momemt** used for calculating time
+ - **Moment** used for calculating time
  - **socket.io:** it is a library that enables real-time, bidirectional and event-based communication between the browser and the server
 
 **DEMO LINK(HOSTED IN HEROKU):**
