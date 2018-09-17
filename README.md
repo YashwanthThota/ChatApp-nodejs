@@ -6,7 +6,7 @@
   - This application also shows a list of active users and notifies whenever a user joined or left the chatroom
  
 **FEATURES:**
-  - In order to use this application's services, the user has to enter a username and he can either select an existing chat room or he can create a new chatrrom
+  - In order to use this application's services, the user has to enter a username and he can either select an existing chat room or he can create a new chatroom
   - Enabled Validations to check whether the entered username and chatroom details
 
 **TECHNICAL FEATURES:**
